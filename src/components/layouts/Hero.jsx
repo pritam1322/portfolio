@@ -53,6 +53,27 @@ export default function Hero(){
                         </div>
                     </div>
 
+                    <div className="bg-gray-200 text-black max-w-[400px] rounded-lg min-h-[200px] m-2 ">
+                        <div className="p-4 font-semibold hover:text-blue-700">Producify</div>
+                        <div 
+                            className="text-sm text-gray-600 pl-2">
+                                • Built a full-stack e-commerce platform using Next.js, TypeScript, and tRPC, facilitating over 500 product listings and enabling seamless transactions between 100+ buyers and sellers..<br />
+                                • Leveraged tRPC to create typesafe APIs, improving front-end to back-end communication efficiency by 25% and reducing development time by eliminating boilerplate code
+                        </div>
+                        <div className="p-4 rounded-lg mt-5">
+                            <Link href="https://producify.vercel.app/">
+                                <Image 
+                                    src="/producify.png" 
+                                    alt="producify" 
+                                    width={200} 
+                                    height={100} 
+                                    layout="intrinsic" 
+                                    className="cursor-pointer w-full h-full hover:scale-105 border border-gray-700"
+                                />
+                            </Link>
+                        </div>
+                    </div>
+
                 </section>
             </section>
         </>
